@@ -14,6 +14,7 @@ export default function GreetingForm() {
                 placeholder="Podaj swoje imię"
             />
             {name && <p>Witaj, {name}!</p>}
+            <span className="highlight">Ważna informacja</span>
         </div>
     );
 }

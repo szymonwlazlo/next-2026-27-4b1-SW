@@ -1,8 +1,9 @@
-export default function Card({ title, children }) {
+import styles from './Card.module.css';
+
+export default function Badge({ children }) {
     return (
-        <div style={{ border: '1px solid #ddd', borderRadius: 8, padding: '1rem' }}>
-            <h2>{title}</h2>
-            <div>{children}</div>
-        </div>
+        <span className="inline-block rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-800 dark:bg-blue-900 dark:text-blue-200">
+            {children}
+        </span>
     );
 }
