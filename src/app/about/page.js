@@ -1,5 +1,4 @@
 import Card from '@/components/Card';
-import CounterWithLog from '@/components/CounterWithLog';
 
 
 export default function AboutPage() {

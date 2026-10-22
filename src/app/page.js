@@ -3,6 +3,9 @@ import Counter from '@/components/Counter';
 import GreetingForm from '@/components/GreetingForm';
 import ContextCounterDisplay from '@/components/ContextCounterDisplay';
 import ContextCounterButton from '@/components/ContextCounterButton';
+import TimerToggle from '@/components/TimerToggle';
+import CounterWithLog from '@/components/CounterWithLog';
+
 
 export default function HomePage() {
   return (
@@ -14,6 +17,8 @@ export default function HomePage() {
       <GreetingForm />
       <ContextCounterDisplay />
       <ContextCounterButton />
+      <TimerToggle />
+      <CounterWithLog />
     </main>
   );
 }
