@@ -1,5 +1,4 @@
 import { CounterProvider } from '@/components/CounterContext';
-
 export default function RootLayout({ children }) {
   return (
     <html lang="pl">
